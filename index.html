@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кулинар и фуд-блогер</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1.3;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+</head>
+<body>
+<header>
+    <h1>Буфалов Никита</h1>
+    <p>Кулинар, фуд-блогер</p>
+  </header>
+
+<nav class="main-nav" aria-label="Основная навигация">
+  <ul class="nav-list">
+    <li><a href="#skills">Навыки</a></li>
+    <li><a href="#projects">Проекты</a></li>
+    <li><a href="#signature">Фирменные блюда</a></li>
+    <li><a href="#ingredients">Ингредиенты недели</a></li>
+    <li><a href="#contact">Обратная связь</a></li>
+  </ul>
+</nav>
+
+<div class="layout">
+  <main>
+
+    <img
+      src="./images/nikitabufalov.jpg   "
+      alt="Портрет Никиты Буфалова"
+      width="200"
+      height="200"
+      style="object-fit: cover;"
+    >
+
+    <section id="skills">
+      <h2>Навыки</h2>
+      <ul>
+        <li>Знание кухонь мира</li>
+        <li>Умение фотографировать еду при естественном свете</li>
+        <li>Основы фуд-стилистики</li>
+        <li>Разработка авторских рецептов</li>
+        <li>Ведение блога и написание текстов о еде</li>
+        <li>Работа с соусами, специями</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Проекты</h2>
+      <ol>
+        <li>Домашняя паста с томатами и базиликом</li>
+        <li>Тонкий тирамису без выпечки</li>
+        <li>Грузинские хачапури по-аджарски</li>
+        <li>Тыквенный крем-суп с имбирём</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <form action="#" method="post">
+        <h2>Обратная связь</h2>
+
+        <label for="name">Имя</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Ваше имя"
+          required
+        >
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        >
+
+        <label for="message">Сообщение</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Напишите ваш вопрос или отзыв"
+        ></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Любимые технологии</h2>
+    <p><strong>Любимая кухня:</strong> итальянская</p>
+    <p><strong>Любимый ингредиент:</strong> базилик</p>
+  </aside>
+
+</div>
+  
+  <footer>
+    <p>&copy; 2026 Буфалов Никита. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
